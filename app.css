@@ -1,8 +1,31 @@
-p{
-    color: greenyellow;
-    background-color: hotpink;
+
+/* element selector and grouping selectors */
+
+p, h3, footer{
+    border: 2px solid red;
 }
+ 
 h3{
     color: red;
     background-color: blue; 
+}
+
+/* id selectors */
+
+#rashu{
+    color: yellow;
+}
+
+/* class selectors */
+
+.pandey{
+    color: black;
+}
+.bg{
+    background-color: orange;
+}
+
+/* grouping selectors */
+footer,span{
+    background-color: violet;
 }

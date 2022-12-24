@@ -1,9 +1,27 @@
-p{
-   
-    font-family: 'Montserrat', sans-serif;
-    font-size: 50px;
-    font-style: italic;
-    line-height: 2rem
+#firstP{
+    background-color: orange;
+    height: 100px;
+    width: 455px;
+    border-width: 2px;
+    border-color: black;
+    border-style: dotted;
 
+    border-radius: 4px;
 }
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+.firstP{
+    background-color: orange;
+    height: 100px;
+    width: 500px;
+    border-radius: 5px;
+    border: 4px dotted black;
+}
+
+.secondP{
+    background-color: rgb(9, 247, 61);
+    height: 100px;
+    width: 455px;
+    border-top: 2px dotted black;
+    border-bottom: 2px dotted violet;
+    border-right: 2px solid black;
+    border-left: 2px solid orange;
+}

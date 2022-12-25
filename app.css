@@ -5,5 +5,9 @@
    padding: 50px 20px 50px 20px;
    margin: 13px 19px;
    border-radius: 23px;
+   box-sizing: border-box;
+}
+body{
+    background-color: rgb(89, 58, 69);
 }
 

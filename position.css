@@ -1,0 +1,28 @@
+.box{
+ border: 2px solid red;
+width: 150px;
+height: 150px;
+margin: 2px;
+display: inline-block;
+
+}
+
+
+/* #box3{
+position: absolute;
+left: 34px;
+top:30px
+} */
+
+.container{
+    border: 3px solid black;
+    background-color: khaki;
+    height: 34000px;
+}
+
+#box4{
+    position: fixed;
+    right: 4px;
+    bottom: 2px;
+  
+}

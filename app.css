@@ -1,13 +1,55 @@
+*
 
-.firstP{
-    background-color: rgb(200, 165, 204);
-   border: 3px solid black;
-   padding: 50px 20px 50px 20px;
-   margin: 13px 19px;
-   border-radius: 23px;
-   box-sizing: border-box;
+
+.container{
+width: 900px;
+border: 3px solid rgb(55, 0, 55);
+border-radius: 10px;
+margin: auto;
 }
+
+.item{
+border: 3px solid black;
+margin: 10px;
+padding: 2rem;
+background-color: rgb(148, 224, 184);
+border-radius: 10px;
+}
+
 body{
-    background-color: rgb(89, 58, 69);
+    font-family: 'Montserrat', sans-serif;
+background-color: bisque;
+
 }
 
+*{
+    box-sizing: border-box;
+    border-radius: 2px;
+
+}
+
+#fruit{
+float: left;
+width: 48%;
+}
+
+#computer{
+
+    float:  left;
+    width: 48%;
+
+}
+
+#stationary{
+    float: left;
+    width: 48%;
+}
+
+p{
+    text-align: justify;
+ 
+}
+h1{
+    margin:23px, auto;
+    width: 455px;
+}

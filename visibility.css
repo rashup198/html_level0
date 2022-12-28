@@ -1,0 +1,33 @@
+.box{
+    width: 170px;
+height: 170px;
+border: 2px solid red;
+}
+
+#box1{
+    position: relative;
+    top: 49px; ;
+    background-color: orange;
+}
+
+#box2{
+    position: relative;
+    top: 14px;
+    /* will hide the element and the space; */
+     /* display: none;  */
+
+     /*will hide the element but will show the space */
+     /* visibility: hidden; */
+
+
+     /* z-index will work only for the position relative absolute fixed and sticky; */
+
+     
+    background-color: blueviolet;
+}
+#box3{
+    background-color: palegreen;
+}
+#box4{
+    background-color: rgb(23, 44, 2);
+}
